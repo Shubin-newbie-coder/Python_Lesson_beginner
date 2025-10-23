@@ -1,0 +1,15 @@
+username=input("Username:")
+password=input("Password:")
+
+if username == "member" and password == "1234":
+    print("welcome")
+    
+    service=input("Select service (1 or 2): ")
+    if service == "1" :
+        print("Service 1 selected")
+    elif service == "2" :
+        print("Service 2 selected")
+    else:
+        print("No service selected")
+else:
+    print("try again")
