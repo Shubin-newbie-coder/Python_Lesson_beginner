@@ -1,0 +1,7 @@
+##ໃຊ້ແທນifມາຕາມຫລັງ 
+service=input("inpur service 1,2,3,:")
+
+match service:
+    case "1":print("service 1 selected")
+    case "2":print("service 2 selected")
+    case "3":print("service 3 selected")
