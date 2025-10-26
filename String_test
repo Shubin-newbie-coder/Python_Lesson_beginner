@@ -1,0 +1,27 @@
+# 1 ການເຊື່ອມຕໍ່ String
+fname = 'Phisidxay' #fnaem=frist name
+lname = 'PHOSALATH' #lname=last name
+
+fullname = fname + lname
+print(fullname)
+
+# 2 String ແບບຫລາຍບັນທັດ
+adddrass = '''ບ້ານ ນາງວຽງ
+ເມືອງ ສີສັງຂອນ
+ແຂວງ ບໍ່ແກງ
+ປະເທດ ສປປ ລາວ'''
+
+# 3 String format (f-string)
+#EXAMPLE
+year = 2025
+#ຈາກປົກກະຕີເຮົາພິມ
+# massage = 'ປີນີ້ຂ້ອຍອາຍຸ' + str(year-2001)
+# ເຮົາສາມາດໃຊ້ f-string ໄດ້ເຮັດໃຫ້ສັ້ນແລະເຂົ້າໃຈງ່າຍຂຶ້ນ
+massage = f'ປີນີ້ຂ້ອຍອາຍຸ{year-2001}' 
+print(massage)
+
+# 4 String slice
+name = 'Phisidxay Phosalath' #ໃນຊື່ມີຊທັງຫມົດ19ຕົວອັກສອນ(ລວມຊື່ແລະນາມສະກຸນແລະຊ່ອງວ່າງ)
+#ພິມຕົວອັກສອນຕົ້ນທີ1-6ຕັວແລກແມ່ນຈະໄດ້ຄຳວ່າphisid
+print(name[0:6])
+#ທີ່ຈຶງມັນຄວນແມ່ນ [0:5] ແຕ່ໃນslice ຈະມີການ+1 ຕໍ່ທ້າຍຄືກັບLoop ເຮັດໃຫ້ເປັນ[0:5+1]=[0:6]
