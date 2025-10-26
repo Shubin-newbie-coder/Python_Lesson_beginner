@@ -1,0 +1,63 @@
+# 1.upper function
+name = "Phisidxay"
+print(name.upper())
+# phisidxay
+
+# 2.lower function
+name = "PHISIDXAY"
+print(name.lower())
+# phisidxay
+
+# 3.Startwith function
+name = "Phisidxay"
+if name.startswith("P"):
+    print(True)
+else:
+    print(False)
+# True
+
+# 4.endswith function
+name = "Phisidxay"
+if name.endswith("y"):
+    print(True)
+else:
+    print(False)
+# True
+
+# 5.find function
+name = "Phisidxay"
+print(name.find("d"))
+# 5  d ແມ່ນລຳດັບທີ່ 5 ເພາະວ່າມັນເລີ່ມນັບຈາກ 0 // 0=P,1=h,2=i,3=s,4=i,5=d
+
+# 6.count function
+name = "Phisidxay"
+print(name.count("i"))
+# 2  ມີ i ສອງຕົວ
+
+# 7.replace function
+text = "ປີໃໝ່ 2025 ມາແລ້ວ ຂໍໃຫ້ທຸກຄົນມີຄວາມສຸກໃນປີ 2025"
+update = text.replace("2025","2026")
+print(update)
+# ປີໃໝ່ 2026 ມາແລ້ວ ຂໍໃຫ້ທຸກຄົນມີຄວາມສຸກໃນປີ 2026
+
+# 8.strip function
+text = "   Hello Phisidxay   "
+print(text.strip()) #ແມ່ນການຕັດຍະວ່າງຂ້າງໜ້າ ແລະ ຂ້າງຫຼັງ
+# "Hello Phisidxay"
+
+# 10.format function
+text = "Hello {}, welcome to {}".format("Phisidxay","Python")
+print(text)
+# Hello Phisidxay, welcome to Python
+
+# 11.split function
+text = "Hello Phisidxay, welcome to Python"
+words = text.split(" ") # ແຍກຂໍ້ຄວາມອອກເປັນລາຍການໂດຍການແຕ່ງຕາມຊ່ອງວ່າງ
+print(words)
+# ['Hello', 'Phisidxay,', 'welcome', 'to', 'Python']
+
+# 12.join function
+words = ['Hello', 'Phisidxay,', 'welcome', 'to', 'Python']
+text = " ".join(words) # ເຊື່ອມລາຍການເປັນຂໍ້ຄວາມໂດຍການເຊື່ອມຕໍ່ຕາມ " "
+print(text)
+# Hello Phisidxay, welcome to Python
