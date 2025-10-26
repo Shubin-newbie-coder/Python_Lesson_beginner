@@ -1,0 +1,4 @@
+for i in range(3):
+    print("loop :",(i))
+    for j in range(4):
+        print(j)
