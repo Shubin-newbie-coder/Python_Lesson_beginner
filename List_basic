@@ -1,0 +1,16 @@
+#List
+product = ["table",10.99,10,True]
+print(product[0])  # Output: table
+print(product[1])  # Output: 10.99  
+print(product[2])  # Output: 10
+print(product[3])  # Output: True
+
+
+colors1 = ["red","green","blue"]
+colors2 = list(("yellow","purple","orange"))
+fullcolors = colors1 + colors2
+print(fullcolors)  # Output: ['red', 'green', 'blue', 'yellow', 'purple', 'orange']
+
+color = ["red","green","blue","yellow","purple","orange"]
+print(color[1:3])  # Output: ['green', 'blue']
+print(color[-4:-1])  # Output: ['blue', 'yellow', 'purple']
