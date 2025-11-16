@@ -1,0 +1,4 @@
+color = ["red","green","blue","yellow","purple","orange"]
+print('red' in color)         # Output: True
+print('pink' in color)        # Output: False
+print('pink' not in color)    # Output: True
