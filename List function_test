@@ -1,5 +1,5 @@
 #List function
-
+#List [] 
 color = ["red","green","blue","yellow","purple","orange"]
 color.append("back") # Append "back" to the end of the list
 color.extend(["white","gray","red"])   # Extend list with multiple colors
