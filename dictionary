@@ -1,0 +1,23 @@
+#dictionary
+
+colors = {
+    "red": "ແດງ",
+    "green": "ຂຽວ",
+    "blue": "ຟ້າ"
+}
+colors["yellow"] = "ເຫຼືອງ" # ເພີມຂໍ້ມູນໃໝ່
+colors["blue"] = "ຟ້າອ່ຳ"  # ແກ້ໄຂຂໍ້ມູນທີ່ມີຢູ່ແລ້ວ
+  # Output: ແດງ
+print(colors["green"]) # Output: ຂຽວ
+print(colors)  # Output: {'red': 'ແດງ', 'green': 'ຂຽວ', 'blue': 'ຟ້າອ່ຳ', 'yellow': 'ເຫຼືອງ'}
+
+#dictionary + list 
+
+numbers = {
+    "ເລກຄູ່": [2, 4, 6, 8, 10],
+    "ເລກຄີກ": [1, 3, 5, 7, 9]
+}
+
+print(numbers["ເລກຄີກ"])  # Output: [1, 3, 5, 7, 9]
+print(numbers["ເລກຄູ່"]) # Output: [2, 4, 6, 8, 10]
+
