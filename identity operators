@@ -1,0 +1,22 @@
+#identity operator
+
+colorsA = ["red","green","blue"]
+colorsB = ["red","green","blue"]
+
+print(colorsA is colorsB)  # Output: False
+print(colorsA == colorsB)  # Output: True
+
+#ແຕ່ຖ້າຫາກເຮັດແບບນີ້ colorsB = colorsA
+#ຈະໄດ້ຜົນອອກມາເປັນ True ທັງສອງ
+
+colorsA = ["red","green","blue"]
+colorsB = ["red","green","blue"]
+
+colorsB = colorsA
+
+print(colorsA is colorsB)  # Output: True
+
+#ຫລື 
+data = colorsA
+print(colorsA is data)  # Output: True
+
