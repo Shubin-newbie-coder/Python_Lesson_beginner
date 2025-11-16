@@ -1,0 +1,13 @@
+#set
+animals = {"dog","cat","tiger","lion","elephant"}
+animals.add("duck")
+animals.update(("pig","giraffe"))
+
+pets=set (("dog","cat","rabbit","camel"))
+print(animals)
+print(pets)
+          
+data=animals.intersection(pets)  #output: {'dog', 'cat'}
+data=animals.difference(pets)    #output: {'elephant', 'lion', 'tiger', 'duck', 'giraffe', 'pig'}          
+data=animals.union(pets)  #output: {'dog', 'cat', 'tiger', 'lion', 'elephant', 'duck', 'pig', 'giraffe', 'rabbit', 'camel'}
+print(data)
