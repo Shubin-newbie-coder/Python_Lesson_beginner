@@ -1,0 +1,41 @@
+#tuple function
+
+product = ("laptop",1500.00,5)
+print(product[0])  # Output: laptop
+print(product[1])  # Output: 1500.00
+print(product[2])  # Output: 5
+
+#tuple ແມ່ນໃຊ້ () // ບໍ່ສາມາດແກ້ໄຂໄດ້
+#list ແມ່ນໃຊ້ [] // ສາມາດແກ້ໄຂໄດ້
+
+
+product =("laptop",1500.00,5)
+name,price,stock = product
+print("name: ",name)   # Output: laptop
+print("price: ",price)  # Output: 1500.00
+print("stock: ",stock)  # Output: 5
+
+#tuple loop 
+product =("laptop",1500.00,5)
+for item in product:
+    print(item)
+# Output:
+# laptop
+# 1500.0
+# 5
+
+# join tuple
+scores1 = (85,90,78)
+scores2 = tuple((88,92,80))
+fullscore = scores1 + scores2
+print(fullscore)  # Output: (85, 90, 78, 88, 92, 80)
+print(len(fullscore))  # Output: 6 จำนวนຂອງຕົວແປ fullscore
+
+
+color = ["red","green","blue","yellow","purple","orange"]
+print(color[1:3])  # Output: ['green', 'blue'] [1,2+1] = [1,2] = green,blue +1ສະເຫມີ
+print(color[-4:-1])  # Output: ['blue', 'yellow', 'purple']
+print(color[:4])  # Output: ['red', 'green', 'blue', 'yellow']
+print(color[2:])  # Output: ['blue', 'yellow', 'purple',
+print(color.index("purple"))  # Output: 4 ຕຳແໜ່ງຂອງ purple
+print(color.count("red"))  # Output: 1 ຈຳນວນຂອງ red ມີສີແດງອັນດຽວ
