@@ -1,0 +1,19 @@
+#List function
+
+color = ["red","green","blue","yellow","purple","orange"]
+color.append("back") # Append "back" to the end of the list
+color.extend(["white","gray","red"])   # Extend list with multiple colors
+color.insert(2,"pink")                 # Insert "pink" at index 2 after "green" :red, green, pink
+color.remove("blue")                   # Remove "blue" from the list
+# color.clear()                        # Clear the list
+print(color)  
+# print(color.count("red"))            # Count occurrences of "red"  red is have 2 
+
+---------------------------------------------------
+
+color = [1,4,3,2,5,6,9,8,7,10]
+color.sort()           # output: [1,2,3,4,5,6,7,8,9,10]
+color.reverse()        # output: [10,9,8,7,6,5,4,3,2,1]
+print(color) 
+
+
