@@ -1,0 +1,44 @@
+colors = {
+    "red" : "ແດງ",
+    "green" : "ຂຽວ",
+    "blue" : "ຟ້າ"
+}
+
+for key in colors.keys():
+    print(key)
+# output:
+#  red
+#  green
+#  blue
+
+for value in colors.values():
+    print(value)
+# output:
+#  ແດງ
+#  ຂຽວ
+#  ຟ້າ
+
+
+for key,value in colors.items():
+    print(f"{key} = {value}")
+    print(key,'=',value)  
+# output:
+#  red = ແດງ
+#  green = ຂຽວ
+#  blue = ຟ້າ
+
+
+print(colors["red"])  # Output: ແດງ
+print(colors.get("green"))  # Output: ຂຽວ
+
+colors.pop("blue") # Remove the key "blue" 'ຟ້າ' from the dictionary
+print(colors)  # Output: {'red': 'ແດງ', 'green': 'ຂຽວ'}
+
+colors.clear() # Remove all items from the dictionary
+
+colors.update({"yellow":"ເຫຼືອງ"}) # ເພີ່ມສິເຫລືອງ Add a new key-value pair to the dictionary
+
+colors.update({"red":"ແດງອອນ"}) # ແກ້ໄຂສີແດງ Update the value for the key "red"
+
+maincolors = colors.copy() # ສ້າງສຳເນົາ Create a copy of the dictionary
+print(maincolors)  # Output: {'red': 'ແດງອອນ', 'green': 'ຂຽວ', 'yellow': 'ເຫຼືອງ'} //ບໍ່ມີ blue ແລ້ວເພາະວ່າໄດ້ຖືກລຶບໄປແລ້ວ
