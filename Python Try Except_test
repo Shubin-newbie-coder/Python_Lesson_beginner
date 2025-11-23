@@ -1,0 +1,25 @@
+ໃນ try except ຈະມີ 4 ຢ່າງ
+ try                  ຫມາຍເຖິງໃຫ້ລອງລັນໂຄດໃນບ໋ອກນິ້ກ່ອນ
+ except               ຖ້າມິerrorໃຫ້ມາລັນເຂື່ອນໄງໃນນີ້
+ else                 ຖ້າບໍ່ມິerrorໃຫ້ມາລັນເຂື່ອນໄງໃນນີ້
+ finally              ບ໋ອກນິ້ຈະສະແດງຜົນຕະຫລອດບໍ່ວ່າຈະມີerrorຫລືບໍ່ມີerrorກໍ່ຕາມ
+
+--------------------------------
+try:                            
+  print(x)                        -> ຂ້າມ  
+except:
+  print("An exception occurred")  -> ລັນ
+--------------------------------
+try:
+  print("Hello")                  -> ລັນ
+except:
+  print("Something went wrong")   -> ຂ້າມ 
+else:
+  print("Nothing went wrong")     -> ລັນ
+---------------------------------
+try:
+  print(x)                        -> ຂ້າມ 
+except:
+  print("Something went wrong")   -> ລັນ
+finally:
+  print("The 'try except' is finished")   -> ລັນທຸກຄັ້ງ
