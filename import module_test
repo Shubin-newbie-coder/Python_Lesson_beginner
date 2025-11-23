@@ -1,0 +1,28 @@
+Ex:1
+#file 1 name mymodule
+--------------------
+def greeting(name):
+  print("Xin chao , " + name)
+
+#file 2 
+-------------------
+import mymodule
+mymodule.greeting("Shubin")
+
+#result
+Xin chao , Shubin
++++++++++++++++++++++++++++++++++++++++
+Ex:2
+#name file mymodule.py
+person1 = {
+  "name": "John",
+  "age": 36,
+  "country": "Norway"
+}
+
+import mymodule
+
+a=mymodule.person1["age"]
+print(a)
+
+ໄດ້ = 36 
